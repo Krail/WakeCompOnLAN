@@ -2,7 +2,7 @@
 
 
 # Include the configuration file #
-source ~/.wolrc
+source ~/.wcolrc
 
 # Update ARP Table #
 arp > /dev/null
