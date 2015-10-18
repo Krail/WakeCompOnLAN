@@ -1,6 +1,6 @@
-touch ~/.wolrc2
-echo "# MAC address" > ~/.wolrc2
-echo "MAC=" >> ~/.wolrc2
-echo "" >> ~/.wolrc2
-echo "# WakeOnLan bin directory" >> ~/.wolrc2
-echo "GitLocation=~/bin/wakeonlan-master" >> ~/.wolrc2
+touch ~/.wcolrc
+echo "# MAC address" > ~/.wcolrc
+echo "MAC=" >> ~/.wcolrc
+echo "" >> ~/.wcolrc
+echo "# WakeOnLan bin directory" >> ~/.wcolrc
+echo "GitLocation=~/bin/wakeonlan-master" >> ~/.wcolrc
