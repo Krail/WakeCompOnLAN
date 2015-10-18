@@ -18,4 +18,4 @@ source ~/.wolrc
 $GitLocation/wakeonlan $MAC > /dev/null
 
 # Pronounce it loud for the world to hear!
-echo -e "\nMagic Packet sent over LAN for $MAC!\n"
+echo -e "\nMagic packet sent over LAN for $MAC!\n"
