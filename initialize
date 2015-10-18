@@ -1,4 +1,5 @@
 touch ~/.wcolrc
+chmod 600 ~/.wcolrc
 echo "# MAC address" > ~/.wcolrc
 echo "MAC=" >> ~/.wcolrc
 echo "" >> ~/.wcolrc
