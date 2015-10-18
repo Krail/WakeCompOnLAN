@@ -1,0 +1,21 @@
+#!/bin/sh
+
+#   Download a wakeonlan source file (I used https://github.com/jpoliv/wakeonlan).
+# Extract the directory, read its README.md file, and follow the instructions given
+#
+#   Input your own machine's MAC address and the absolute path from the home
+# directory using a wakeonlan source file from https://github.com/jpoliv/wakeonlan
+# into the ~/.wolrc configuration file.
+#
+# wakeonlan is ran without requiring a user to be on the sudoers file!
+
+# Load the configuration file
+source ~/.wolrc
+
+#   Broadcast magic packets over the LAN!
+# If a computer in the LAN matches this $MAC address
+#     then it will wake up.
+$GitLocation/wakeonlan $MAC > /dev/null
+
+# Pronounce it loud for the world to hear!
+echo -e "\nMagic Packet sent over LAN for $MAC!\n"
