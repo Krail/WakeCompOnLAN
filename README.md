@@ -30,6 +30,7 @@ $ ./wakecomponlan
 $ ./iscomponline
   ```
   NOTE: Don't forget to give your computer some time to boot up (mine takes a few minutes!).
+  Also, you may need [Heartbeat](https://github.com/Krail/Heartbeat), which pings your server so that your computer is quickly added to the ARP table.
 
 
 # Finally #
