@@ -2,5 +2,5 @@ touch ~/.wolrc2
 echo "# MAC address" > ~/.wolrc2
 echo "MAC=" >> ~/.wolrc2
 echo "" >> ~/.wolrc2
-echo "# WakeOnLan bin directory" >> ~/.wolrc2
-echo "GitLocation=~/bin/wakeonlan-master" >> ~/.wolrc2
+echo "# WakeOnLan binary location" >> ~/.wolrc2
+echo "WoLBinaryLocation=" >> ~/.wolrc2
