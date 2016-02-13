@@ -10,7 +10,7 @@
 # wakeonlan is ran without requiring a user to be on the sudoers file!
 
 # Load the configuration file
-source ~/.wolrc
+source ~/.wcolrc
 
 #   Broadcast magic packets over the LAN!
 # If a computer in the LAN matches this $MAC address

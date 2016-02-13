@@ -2,7 +2,11 @@
 
 
 # Include the configuration file #
+<<<<<<< HEAD
 source ~/.wolrc
+=======
+source ~/.wcolrc
+>>>>>>> 785f9bd4c19f56badf7e136d23f603905fd423e8
 
 # Update ARP Table #
 arp > /dev/null
