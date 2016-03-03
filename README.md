@@ -43,10 +43,3 @@ $ ./iscomponline
   ```
 $ ssh [username]@[ip returned from ./iscomponline]
   ```
-
-# ToDo #
-
-  1. Combine prerequisites 2 and 3 into a query and answer with user.
-
-  2. Combine the **iscomponline** and **ssh** commands
-  to make one single command.
